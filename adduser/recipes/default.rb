@@ -8,8 +8,8 @@
 #
 
 user "matsui" do
-	comment "test user"
-	uid 1000
+	comment "matsui"
+	uid 1001
 	gid "wheel"
 	home "/home/matsui"
 	shell "/bin/bash"
