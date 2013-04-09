@@ -9,5 +9,5 @@
 log "execute deploy_hook"
 
 execute "ps" do
-	command "ps -auxwww > /var/tmp/ps.$$"
+	command "ps auxwww > /var/tmp/ps.$$"
 end
